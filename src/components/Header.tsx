@@ -8,7 +8,7 @@ export default function Header() {
       <div>
         <Image src="/nike.png" alt="Nike image" width={78} height={78} />
       </div>
-      <div className="flex flex-col md:flex-row items-center mt-4 md:mt-0 gap-4 md:gap-8">
+      <div className="flex flex-col md:flex-row text-black items-center mt-4 md:mt-0 gap-4 md:gap-8">
         <Link href="/" className="text-sm md:text-base">New & Featured</Link>
         <Link href="/men" className="text-sm md:text-base">Men</Link>
         <Link href="/women" className="text-sm md:text-base">Women</Link>
