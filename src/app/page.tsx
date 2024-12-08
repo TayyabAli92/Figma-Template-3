@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="bg-[#F5F5F5] w-full flex justify-center flex-col items-center text-center py-8">
-        <h1 className="font-bold text-xl md:text-3xl lg:text-4xl">Hello Nike App</h1>
-        <p className="mt-4 text-sm md:text-base lg:text-lg">
+        <h1 className="font-bold text-xl text-black md:text-3xl lg:text-4xl">Hello Nike App</h1>
+        <p className="mt-4 text-sm md:text-base text-black lg:text-lg">
           Download the app to access everything Nike.{" "}
           <Link href="/" className="text-black underline">Get Your Great</Link>
         </p>
