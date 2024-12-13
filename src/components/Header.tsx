@@ -26,7 +26,7 @@ export default function Header() {
           />
         </div>
         <div className="flex gap-4 items-center ml-4">
-          <Image src="/heart.png" alt="Heart" width={24} height={24} />
+          <Image src="/heart-1.png" alt="Heart Image" width={24} height={24} />
           <Image src="/sine.png" alt="Sine" width={24} height={24} />
         </div>
       </div>
