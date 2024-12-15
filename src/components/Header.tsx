@@ -4,7 +4,7 @@ import { CiSearch } from "react-icons/ci";
 
 export default function Header() {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between px-4 py-5 bg-white">
+    <div className="flex flex-col md:flex-row items-center mx-auto max-w-[1440px] justify-between px-4 py-5 bg-white">
       <div>
         <Image src="/nike.png" alt="Nike image" width={78} height={78} />
       </div>

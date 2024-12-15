@@ -13,6 +13,7 @@ export default function Navber() {
 
   return (
     <div className="bg-[#F5F5F5]">
+    <div className="mx-auto max-w-[1440px]">
       <div className="container mx-auto flex items-center justify-between p-4">
         <Image
           src="/Frame.png"
@@ -46,6 +47,7 @@ export default function Navber() {
           <Link href="/signup" className="text-black">Sign Up</Link>
         </div>
       )}
+    </div>
     </div>
   );
 }
