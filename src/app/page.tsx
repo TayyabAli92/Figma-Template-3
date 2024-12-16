@@ -54,14 +54,18 @@ export default function Home() {
           <h1 className="text-lg md:text-xl font-bold">Best of Air Max</h1>
           <span className="gap-3 flex items-center">
             <p className="text-sm md:text-base">Shop</p>
-            <img
+            <Image
               src="/arrow-1.png"
               alt="Arrow"
+              width={500}  
+              height={300}
               className="w-6 h-6 md:w-12 md:h-12"
             />
-            <img
+            <Image
               src="/arrow-2.png"
               alt="Arrow"
+              width={500}  
+              height={300}
               className="w-6 h-6 md:w-12 md:h-12"
             />
           </span>
@@ -118,14 +122,18 @@ export default function Home() {
           <h1 className="text-lg md:text-xl font-bold mt-9 mb-5">Gear Up</h1>
           <div className="flex items-center justify-end mt-5">
             <p className="text-sm md:text-base mr-3">Shop</p>
-            <img
+            <Image
               src="/arrow-1.png"
               alt="Arrow"
+              width={500}  
+              height={300}
               className="w-6 h-6 md:w-12 md:h-12 mr-3"
             />
-            <img
+            <Image
               src="/arrow-2.png"
               alt="Arrow"
+              width={500}  
+              height={300}
               className="w-6 h-6 md:w-12 md:h-12"
             />
           </div>
@@ -202,7 +210,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center gap-10 p-4">
+      <div className="flex flex-col md:flex-row justify-center mt-7 gap-16 p-4">
         <div className="flex flex-col gap-2">
           <h1 className="font-bold">Icons</h1>
           <p className="text-[#757575]">Air Force 1</p>
