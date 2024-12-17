@@ -210,7 +210,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center mt-7 gap-16 p-4">
+      <div className="flex flex-col md:flex-row justify-center mb-7 mt-7 gap-16 p-4">
         <div className="flex flex-col gap-2">
           <h1 className="font-bold">Icons</h1>
           <p className="text-[#757575]">Air Force 1</p>
