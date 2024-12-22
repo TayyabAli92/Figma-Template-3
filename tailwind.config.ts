@@ -15,6 +15,9 @@ export default {
       fontFamily: {
         sans: ['"Helvetica Neue"', 'Arial', 'sans-serif'],
       },
+      screens: {
+        xs: "480px"
+      }
     },
   },
   plugins: [],

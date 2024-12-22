@@ -27,30 +27,30 @@ export default function Footer() {
       <p className="text-[#7E7E7E] text-sm md:text-base">Investors</p>
       <p className="text-[#7E7E7E] text-sm md:text-base">Sustainability</p>
     </div>
-    <div className="flex gap-3 mb-40 mt-12 ml-18 justify-center md:justify-start">
+    <div className="flex items-center gap-3 xs:mb-40 mb-10 mt-12 ml-18 lg:ml-56 xl:ml-96 justify-center md:justify-start">
       <Image
-        src="/twitter.png"
+        src="/twitter-01.png"
         alt="Twitter"
         width="30"
         height="30"
         className="hover:cursor-pointer"
       />
       <Image
-        src="/facebook.png"
+        src="/facebook-01.png"
         alt="Facebook"
         width="30"
         height="30"
         className="hover:cursor-pointer"
       />
       <Image
-        src="/youtube.png"
+        src="/youtube-01.png"
         alt="Youtube"
         width="30"
         height="30"
         className="hover:cursor-pointer"
       />
       <Image
-        src="/instagram.png"
+        src="/instagram-01.png"
         alt="Instagram"
         width="30"
         height="30"
@@ -59,7 +59,7 @@ export default function Footer() {
     </div>
   </div>
 
-  <div className="flex items-center justify-between mt-4">
+  <div className="flex md:flex-row flex-col items-center justify-between mt-4 gap-3">
     <div className="flex gap-3 items-center">
       <img
         src="/map.png"
@@ -69,9 +69,9 @@ export default function Footer() {
         className="hover:cursor-pointer"
       />
       <h1 className="text-sm md:text-base">India</h1>
-      <p className="text-[#7E7E7E] text-sm md:text-base">Ⓒ 2023 Nike, Inc. All Rights Reserved</p>
+      <p className="text-[#7E7E7E] text-xs xs:text-sm md:text-base">Ⓒ 2023 Nike, Inc. All Rights Reserved</p>
     </div>
-    <div className="flex gap-4">
+    <div className="flex xs:flex-row flex-col gap-4 items-center">
       <p className="text-[#7E7E7E] text-sm md:text-base">Guides</p>
       <p className="text-[#7E7E7E] text-sm md:text-base">Terms of Sales</p>
       <p className="text-[#7E7E7E] text-sm md:text-base">Terms of Use</p>

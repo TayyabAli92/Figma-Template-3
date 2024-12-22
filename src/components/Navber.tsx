@@ -16,7 +16,7 @@ export default function Navber() {
     <div className="mx-auto max-w-[1440px]">
       <div className="container mx-auto flex items-center justify-between p-4">
         <Image
-          src="/Frame.png"
+          src="/Frame-logo.png"
           alt="frame"
           width={24}
           height={24}
@@ -28,7 +28,7 @@ export default function Navber() {
           <span className="text-gray-500 hidden md:inline">|</span>
           <Link href="/join" className="text-sm md:text-base">Join Us</Link>
           <span className="text-gray-500 hidden md:inline">|</span>
-          <Link href="/signup" className="text-sm md:text-base">Sign Up</Link>
+          <Link href="/login" className="text-sm md:text-base">Sign Up</Link>
         </div>
         <div className="md:hidden flex items-center">
           <button
