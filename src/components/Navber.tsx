@@ -44,7 +44,7 @@ export default function Navber() {
           <Link href="/store" className="text-black">Find a Store</Link>
           <Link href="/help" className="text-black">Help</Link>
           <Link href="/join" className="text-black">Join Us</Link>
-          <Link href="/signup" className="text-black">Sign Up</Link>
+          <Link href="/login" className="text-black">Sign Up</Link>
         </div>
       )}
     </div>

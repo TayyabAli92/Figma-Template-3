@@ -8,7 +8,7 @@ export default function Product() {
   const [isKidsOpen, setKidsOpen] = useState(true);
   const [isPriceOpen, setPriceOpen] = useState(true);
   return (
-    <div className="flex xs:flex-row flex-col">
+    <div className="flex xs:flex-row flex-col mx-auto max-w-[1440px]">
         {/* Left Section */}
         <div className="ml-4 sm:ml-10 w-full max-w-xs lg:max-w-sm">
   {/* New Section */}

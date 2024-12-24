@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Link from "next/link"
 
 export default function Footer() {
   return (
-    <div className="bg-black text-white p-4">
+    <div className="bg-black text-white p-4 mx-auto">
   <div className="flex flex-col md:flex-row md:gap-20">
     <div className="font-sans flex flex-col gap-2 mt-7">
       <p className="text-sm md:text-base">FIND A STORE</p>
@@ -28,34 +29,38 @@ export default function Footer() {
       <p className="text-[#7E7E7E] text-sm md:text-base">Sustainability</p>
     </div>
     <div className="flex items-center gap-3 xs:mb-40 mb-10 mt-12 ml-18 lg:ml-56 xl:ml-96 justify-center md:justify-start">
+      <Link href="">
       <Image
         src="/twitter-01.png"
         alt="Twitter"
         width="30"
         height="30"
-        className="hover:cursor-pointer"
       />
+      </Link>
+      <Link href="https://www.facebook.com/">
       <Image
         src="/facebook-01.png"
         alt="Facebook"
         width="30"
         height="30"
-        className="hover:cursor-pointer"
       />
+      </Link>
+      <Link href="https://www.youtube.com/">
       <Image
         src="/youtube-01.png"
         alt="Youtube"
         width="30"
         height="30"
-        className="hover:cursor-pointer"
       />
+      </Link>
+      <Link href="https://www.instagram.com/">
       <Image
         src="/instagram-01.png"
         alt="Instagram"
         width="30"
         height="30"
-        className="hover:cursor-pointer"
       />
+      </Link>
     </div>
   </div>
 
