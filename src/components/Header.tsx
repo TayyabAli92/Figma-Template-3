@@ -10,7 +10,7 @@ export default function Header() {
       </div>
       <div className="flex flex-col md:flex-row text-black items-center mt-4 md:mt-0 gap-4 md:gap-8">
         <Link href="/" className="text-sm md:text-base">New & Featured</Link>
-        <Link href="/men" className="text-sm md:text-base">Men</Link>
+        <Link href="/card" className="text-sm md:text-base">Men</Link>
         <Link href="/women" className="text-sm md:text-base">Women</Link>
         <Link href="/kid" className="text-sm md:text-base">Kid</Link>
         <Link href="/sale" className="text-sm md:text-base">Sale</Link>
@@ -27,7 +27,9 @@ export default function Header() {
         </div>
         <div className="flex gap-4 items-center ml-4">
           <Image src="/heart-logo.png" alt="Heart Image" width={24} height={24} />
+          <Link href="/(private)/card">
           <Image src="/sine-1.png" alt="Sine" width={24} height={24} />
+          </Link>
         </div>
       </div>
     </div>

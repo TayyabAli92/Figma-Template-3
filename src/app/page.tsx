@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import "../app/globals.css";
+import "../app/globals.css"
 import ShopCard from "@/components/Shose_Card";
 import MenWomenCard from "@/components/Men_Women_Card";
 import { ClothesCard } from "@/components/Men_Women_Card";
@@ -55,14 +55,14 @@ export default function Home() {
           <span className="gap-3 flex items-center">
             <p className="text-sm md:text-base">Shop</p>
             <Image
-              src="/arrow-1.png"
+              src="/arrow.png"
               alt="Arrow"
               width={500}  
               height={300}
               className="w-6 h-6 md:w-12 md:h-12"
             />
             <Image
-              src="/arrow-2.png"
+              src="/arrow-0.png"
               alt="Arrow"
               width={500}  
               height={300}
@@ -123,14 +123,14 @@ export default function Home() {
           <div className="flex items-center justify-end mt-5">
             <p className="text-sm md:text-base mr-3">Shop</p>
             <Image
-              src="/arrow-1.png"
+              src="/arrow.png"
               alt="Arrow"
               width={500}  
               height={300}
               className="w-6 h-6 md:w-12 md:h-12 mr-3"
             />
             <Image
-              src="/arrow-2.png"
+              src="/arrow-0.png"
               alt="Arrow"
               width={500}  
               height={300}
