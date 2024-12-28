@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import "../app/globals.css"
+import "../globals.css"
 import ShopCard from "@/components/Shose_Card";
 import MenWomenCard from "@/components/Men_Women_Card";
 import { ClothesCard } from "@/components/Men_Women_Card";

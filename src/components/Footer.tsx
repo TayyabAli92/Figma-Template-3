@@ -66,7 +66,7 @@ export default function Footer() {
 
   <div className="flex md:flex-row flex-col items-center justify-between mt-4 gap-3">
     <div className="flex gap-3 items-center">
-      <img
+      <Image
         src="/map.png"
         alt="Map"
         width="18"

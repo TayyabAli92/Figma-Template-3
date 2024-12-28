@@ -14,10 +14,11 @@ export default {
       },
       fontFamily: {
         sans: ['"Helvetica Neue"', 'Arial', 'sans-serif'],
+        inter: ['Inter', 'Arial', 'sans-serif'],
       },
       screens: {
         xs: "480px"
-      }
+      },
     },
   },
   plugins: [],

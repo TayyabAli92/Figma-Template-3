@@ -27,9 +27,7 @@ export default function Header() {
         </div>
         <div className="flex gap-4 items-center ml-4">
           <Image src="/heart-logo.png" alt="Heart Image" width={24} height={24} />
-          <Link href="/(private)/card">
           <Image src="/sine-1.png" alt="Sine" width={24} height={24} />
-          </Link>
         </div>
       </div>
     </div>
